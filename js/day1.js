@@ -1,5 +1,5 @@
 var fs = require('fs');
-var textByLine = fs.readFileSync('input-fuelCounterUpper.txt').toString().split("\n");
+var textByLine = fs.readFileSync('../day1a.txt').toString().split("\n");
 
 var numbers = textByLine.map(function(n) {
     return parseInt(n, 10);
